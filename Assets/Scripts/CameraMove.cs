@@ -12,6 +12,7 @@ public class CameraMove : MonoBehaviour {
 	public float delay = 12f;
 	public float delayTimer = 0.0f;
 	public bool delayDone = false;
+
 	// Use this for initialization
 	void Start () {
 		startY = this.transform.position.y;
